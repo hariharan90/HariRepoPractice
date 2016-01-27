@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90D152671C590CE4003496CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D152661C590CE4003496CC /* main.m */; };
+		90D1526A1C590CE4003496CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D152691C590CE4003496CC /* AppDelegate.m */; };
+		90D1526D1C590CE4003496CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D1526C1C590CE4003496CC /* ViewController.m */; };
+		90D152701C590CE4003496CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D1526E1C590CE4003496CC /* Main.storyboard */; };
+		90D152731C590CE4003496CC /* hariRepoPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90D152711C590CE4003496CC /* hariRepoPractice.xcdatamodeld */; };
+		90D152751C590CE4003496CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D152741C590CE4003496CC /* Assets.xcassets */; };
+		90D152781C590CE5003496CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D152761C590CE5003496CC /* LaunchScreen.storyboard */; };
+		90D152831C590CE5003496CC /* hariRepoPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D152821C590CE5003496CC /* hariRepoPracticeTests.m */; };
+		90D1528E1C590CE5003496CC /* hariRepoPracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D1528D1C590CE5003496CC /* hariRepoPracticeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90D1527F1C590CE5003496CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90D1525A1C590CE4003496CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90D152611C590CE4003496CC;
+			remoteInfo = hariRepoPractice;
+		};
+		90D1528A1C590CE5003496CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90D1525A1C590CE4003496CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90D152611C590CE4003496CC;
+			remoteInfo = hariRepoPractice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90D152621C590CE4003496CC /* hariRepoPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hariRepoPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D152661C590CE4003496CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90D152681C590CE4003496CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90D152691C590CE4003496CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		90D1526B1C590CE4003496CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		90D1526C1C590CE4003496CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		90D1526F1C590CE4003496CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90D152721C590CE4003496CC /* hariRepoPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hariRepoPractice.xcdatamodel; sourceTree = "<group>"; };
+		90D152741C590CE4003496CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90D152771C590CE5003496CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90D152791C590CE5003496CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90D1527E1C590CE5003496CC /* hariRepoPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hariRepoPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D152821C590CE5003496CC /* hariRepoPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hariRepoPracticeTests.m; sourceTree = "<group>"; };
+		90D152841C590CE5003496CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90D152891C590CE5003496CC /* hariRepoPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hariRepoPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D1528D1C590CE5003496CC /* hariRepoPracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hariRepoPracticeUITests.m; sourceTree = "<group>"; };
+		90D1528F1C590CE5003496CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90D1525F1C590CE4003496CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D1527B1C590CE5003496CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D152861C590CE5003496CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90D152591C590CE4003496CC = {
+			isa = PBXGroup;
+			children = (
+				90D152641C590CE4003496CC /* hariRepoPractice */,
+				90D152811C590CE5003496CC /* hariRepoPracticeTests */,
+				90D1528C1C590CE5003496CC /* hariRepoPracticeUITests */,
+				90D152631C590CE4003496CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90D152631C590CE4003496CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90D152621C590CE4003496CC /* hariRepoPractice.app */,
+				90D1527E1C590CE5003496CC /* hariRepoPracticeTests.xctest */,
+				90D152891C590CE5003496CC /* hariRepoPracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90D152641C590CE4003496CC /* hariRepoPractice */ = {
+			isa = PBXGroup;
+			children = (
+				90D152681C590CE4003496CC /* AppDelegate.h */,
+				90D152691C590CE4003496CC /* AppDelegate.m */,
+				90D1526B1C590CE4003496CC /* ViewController.h */,
+				90D1526C1C590CE4003496CC /* ViewController.m */,
+				90D1526E1C590CE4003496CC /* Main.storyboard */,
+				90D152741C590CE4003496CC /* Assets.xcassets */,
+				90D152761C590CE5003496CC /* LaunchScreen.storyboard */,
+				90D152791C590CE5003496CC /* Info.plist */,
+				90D152711C590CE4003496CC /* hariRepoPractice.xcdatamodeld */,
+				90D152651C590CE4003496CC /* Supporting Files */,
+			);
+			path = hariRepoPractice;
+			sourceTree = "<group>";
+		};
+		90D152651C590CE4003496CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90D152661C590CE4003496CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90D152811C590CE5003496CC /* hariRepoPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				90D152821C590CE5003496CC /* hariRepoPracticeTests.m */,
+				90D152841C590CE5003496CC /* Info.plist */,
+			);
+			path = hariRepoPracticeTests;
+			sourceTree = "<group>";
+		};
+		90D1528C1C590CE5003496CC /* hariRepoPracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90D1528D1C590CE5003496CC /* hariRepoPracticeUITests.m */,
+				90D1528F1C590CE5003496CC /* Info.plist */,
+			);
+			path = hariRepoPracticeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90D152611C590CE4003496CC /* hariRepoPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90D152921C590CE5003496CC /* Build configuration list for PBXNativeTarget "hariRepoPractice" */;
+			buildPhases = (
+				90D1525E1C590CE4003496CC /* Sources */,
+				90D1525F1C590CE4003496CC /* Frameworks */,
+				90D152601C590CE4003496CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hariRepoPractice;
+			productName = hariRepoPractice;
+			productReference = 90D152621C590CE4003496CC /* hariRepoPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90D1527D1C590CE5003496CC /* hariRepoPracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90D152951C590CE5003496CC /* Build configuration list for PBXNativeTarget "hariRepoPracticeTests" */;
+			buildPhases = (
+				90D1527A1C590CE5003496CC /* Sources */,
+				90D1527B1C590CE5003496CC /* Frameworks */,
+				90D1527C1C590CE5003496CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90D152801C590CE5003496CC /* PBXTargetDependency */,
+			);
+			name = hariRepoPracticeTests;
+			productName = hariRepoPracticeTests;
+			productReference = 90D1527E1C590CE5003496CC /* hariRepoPracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90D152881C590CE5003496CC /* hariRepoPracticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90D152981C590CE5003496CC /* Build configuration list for PBXNativeTarget "hariRepoPracticeUITests" */;
+			buildPhases = (
+				90D152851C590CE5003496CC /* Sources */,
+				90D152861C590CE5003496CC /* Frameworks */,
+				90D152871C590CE5003496CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90D1528B1C590CE5003496CC /* PBXTargetDependency */,
+			);
+			name = hariRepoPracticeUITests;
+			productName = hariRepoPracticeUITests;
+			productReference = 90D152891C590CE5003496CC /* hariRepoPracticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90D1525A1C590CE4003496CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "TalentMicro Innovation Pvt Ltd";
+				TargetAttributes = {
+					90D152611C590CE4003496CC = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					90D1527D1C590CE5003496CC = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 90D152611C590CE4003496CC;
+					};
+					90D152881C590CE5003496CC = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 90D152611C590CE4003496CC;
+					};
+				};
+			};
+			buildConfigurationList = 90D1525D1C590CE4003496CC /* Build configuration list for PBXProject "hariRepoPractice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90D152591C590CE4003496CC;
+			productRefGroup = 90D152631C590CE4003496CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90D152611C590CE4003496CC /* hariRepoPractice */,
+				90D1527D1C590CE5003496CC /* hariRepoPracticeTests */,
+				90D152881C590CE5003496CC /* hariRepoPracticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90D152601C590CE4003496CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D152781C590CE5003496CC /* LaunchScreen.storyboard in Resources */,
+				90D152751C590CE4003496CC /* Assets.xcassets in Resources */,
+				90D152701C590CE4003496CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D1527C1C590CE5003496CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D152871C590CE5003496CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90D1525E1C590CE4003496CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D1526D1C590CE4003496CC /* ViewController.m in Sources */,
+				90D1526A1C590CE4003496CC /* AppDelegate.m in Sources */,
+				90D152731C590CE4003496CC /* hariRepoPractice.xcdatamodeld in Sources */,
+				90D152671C590CE4003496CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D1527A1C590CE5003496CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D152831C590CE5003496CC /* hariRepoPracticeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D152851C590CE5003496CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D1528E1C590CE5003496CC /* hariRepoPracticeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90D152801C590CE5003496CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90D152611C590CE4003496CC /* hariRepoPractice */;
+			targetProxy = 90D1527F1C590CE5003496CC /* PBXContainerItemProxy */;
+		};
+		90D1528B1C590CE5003496CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90D152611C590CE4003496CC /* hariRepoPractice */;
+			targetProxy = 90D1528A1C590CE5003496CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90D1526E1C590CE4003496CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90D1526F1C590CE4003496CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90D152761C590CE5003496CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90D152771C590CE5003496CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90D152901C590CE5003496CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		90D152911C590CE5003496CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90D152931C590CE5003496CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hariRepoPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talentmicro.ezeone.hariRepoPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90D152941C590CE5003496CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hariRepoPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talentmicro.ezeone.hariRepoPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		90D152961C590CE5003496CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hariRepoPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talentmicro.ezeone.hariRepoPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hariRepoPractice.app/hariRepoPractice";
+			};
+			name = Debug;
+		};
+		90D152971C590CE5003496CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hariRepoPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talentmicro.ezeone.hariRepoPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hariRepoPractice.app/hariRepoPractice";
+			};
+			name = Release;
+		};
+		90D152991C590CE5003496CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hariRepoPracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talentmicro.ezeone.hariRepoPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hariRepoPractice;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		90D1529A1C590CE5003496CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hariRepoPracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talentmicro.ezeone.hariRepoPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hariRepoPractice;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90D1525D1C590CE4003496CC /* Build configuration list for PBXProject "hariRepoPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D152901C590CE5003496CC /* Debug */,
+				90D152911C590CE5003496CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90D152921C590CE5003496CC /* Build configuration list for PBXNativeTarget "hariRepoPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D152931C590CE5003496CC /* Debug */,
+				90D152941C590CE5003496CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90D152951C590CE5003496CC /* Build configuration list for PBXNativeTarget "hariRepoPracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D152961C590CE5003496CC /* Debug */,
+				90D152971C590CE5003496CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90D152981C590CE5003496CC /* Build configuration list for PBXNativeTarget "hariRepoPracticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D152991C590CE5003496CC /* Debug */,
+				90D1529A1C590CE5003496CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		90D152711C590CE4003496CC /* hariRepoPractice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				90D152721C590CE4003496CC /* hariRepoPractice.xcdatamodel */,
+			);
+			currentVersion = 90D152721C590CE4003496CC /* hariRepoPractice.xcdatamodel */;
+			path = hariRepoPractice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 90D1525A1C590CE4003496CC /* Project object */;
+}
