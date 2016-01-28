@@ -23,5 +23,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(void)call_Hari8
+{
+    NSLog(@"Test Commit");
+}
 @end
