@@ -27,5 +27,6 @@
 {
     NSLog(@"Test Commit");
     NSLog(@"Conflict");
+    NSLog(@"Commit from Mac book");
 }
 @end
