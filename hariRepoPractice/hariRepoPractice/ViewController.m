@@ -26,5 +26,6 @@
 -(void)call_Hari8
 {
     NSLog(@"Test Commit");
+    NSLog(@"Commit from Mac book");
 }
 @end
